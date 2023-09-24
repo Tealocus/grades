@@ -20,5 +20,9 @@ int main()
     {
         cout << "Grade: A-" << endl; 
     }
+    else if (score >= 87)
+    {
+        cout << "Grade: B+" << endl; 
+    }
     return 0;
 }
