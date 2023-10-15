@@ -24,5 +24,13 @@ int main()
     {
         cout << "Grade: B+" << endl; 
     }
+    else if (score >= 83)
+    {
+        cout << "Grade: B" << endl; 
+    }
+    else if (score >= 80)
+    {
+        cout << "Grade: B-" << endl; 
+    }
     return 0;
 }
